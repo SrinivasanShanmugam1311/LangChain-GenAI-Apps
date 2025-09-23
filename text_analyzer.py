@@ -5,14 +5,17 @@ This script reads text from a file, sends it to an LLM for analysis,
 and returns the number of characters, words, paragraphs, and sentences
 in JSON format.
 """
-
+from pathlib import Path
+from dotenv import load_dotenv
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
-from langchain_community.chat_models import ChatOpenAI
-from pathlib import Path
-from dotenv import load_dotenv
+#from langchain_community.chat_models import ChatOpenAI
 
+from langchain_core.output_parsers import StrOutputParser
+
+# Load environment variables from .env
+load_dotenv()
 
 # Load text from file
 txt_file = Path("sample.txt")  # replace with your file path
