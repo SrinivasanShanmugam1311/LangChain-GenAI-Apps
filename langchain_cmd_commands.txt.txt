@@ -1,0 +1,166 @@
+Microsoft Windows [Version 10.0.26100.6584]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\user>powershell
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\user> cd powershell -NoExit -Command "cd 'C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain'"^C
+PS C:\Users\user> powershell -NoExit -Command "cd 'C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain'"
+PS C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain> ls
+
+
+    Directory: C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         9/23/2025   8:17 PM                Streamlit-GenAI-Apps
+d-----         9/23/2025   8:49 PM                venv
+-a----         9/23/2025   5:28 AM            179 .env
+-a----          9/5/2025   2:34 PM        4344901 Alex-Freelance-Business-Model.pdf
+-a----         7/17/2024   1:57 PM         162854 Alexander_Resume_ML_DL_DS.pdf
+-a----         4/16/2025  12:18 PM        4125875 Alexander_Resume_Ver_01.pdf
+-a----         9/22/2025  11:23 AM           4192 classification_report.csv
+-a----         9/23/2025   6:13 AM           1686 code_explainer.py
+-a----         9/23/2025   5:55 AM           1492 csv_analyst.py
+-a----         9/23/2025   5:44 AM           1764 doc_qa.py
+-a----         9/23/2025   9:35 AM           3570 jd.txt
+-a----         9/23/2025   6:00 AM           1694 news_summarizer.py
+-a----         9/23/2025  10:55 AM            918 requirements.txt
+-a----         9/23/2025  10:45 AM           1482 result.json
+-a----         9/23/2025  10:31 AM           3101 resume_extractor.py
+-a----         9/23/2025  12:10 PM           3037 resume_jd_match.py
+-a----         9/23/2025   9:49 AM            427 sample.txt
+-a----         9/23/2025   9:12 PM           1344 text_analyzer.py
+
+
+PS C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain>
+PS C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain>
+PS C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain> .\venv\Scripts\Activate.ps1
+(venv) PS C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain>
+(venv) PS C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain> ls
+
+
+    Directory: C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         9/23/2025   8:17 PM                Streamlit-GenAI-Apps
+d-----         9/23/2025   8:49 PM                venv
+-a----         9/23/2025   5:28 AM            179 .env
+-a----          9/5/2025   2:34 PM        4344901 Alex-Freelance-Business-Model.pdf
+-a----         7/17/2024   1:57 PM         162854 Alexander_Resume_ML_DL_DS.pdf
+-a----         4/16/2025  12:18 PM        4125875 Alexander_Resume_Ver_01.pdf
+-a----         9/22/2025  11:23 AM           4192 classification_report.csv
+-a----         9/23/2025   6:13 AM           1686 code_explainer.py
+-a----         9/23/2025   5:55 AM           1492 csv_analyst.py
+-a----         9/23/2025   5:44 AM           1764 doc_qa.py
+-a----         9/23/2025   9:35 AM           3570 jd.txt
+-a----         9/23/2025   6:00 AM           1694 news_summarizer.py
+-a----         9/23/2025  10:55 AM            918 requirements.txt
+-a----         9/23/2025  10:45 AM           1482 result.json
+-a----         9/23/2025  10:31 AM           3101 resume_extractor.py
+-a----         9/23/2025  12:10 PM           3037 resume_jd_match.py
+-a----         9/23/2025   9:49 AM            427 sample.txt
+-a----         9/23/2025   9:12 PM           1344 text_analyzer.py
+
+
+(venv) PS C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain> python .\text_analyzer.py
+C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain\text_analyzer.py:10: LangChainDeprecationWarning: Importing chat models from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.chat_models import ChatOpenAI`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  from langchain.chat_models import ChatOpenAI
+C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain\text_analyzer.py:10: LangChainDeprecationWarning: Importing chat models from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.chat_models import ChatOpenAI`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  from langchain.chat_models import ChatOpenAI
+C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain\text_analyzer.py:42: LangChainDeprecationWarning: The class `ChatOpenAI` was deprecated in LangChain 0.0.10 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-openai package and should be used instead. To use it run `pip install -U :class:`~langchain-openai` and import as `from :class:`~langchain_openai import ChatOpenAI``.
+  llm = ChatOpenAI(temperature=0)
+C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain\text_analyzer.py:45: LangChainDeprecationWarning: The class `LLMChain` was deprecated in LangChain 0.1.17 and will be removed in 1.0. Use :meth:`~RunnableSequence, e.g., `prompt | llm`` instead.
+  chain = LLMChain(llm=llm, prompt=prompt)
+{'text': '{\n  "characters": 398,\n  "words": 69,\n  "paragraphs": 2,\n  "sentences": 5\n}'}
+(venv) PS C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain> streamlit run .\Streamlit-GenAI-Apps\text_analyser_st.py
+Usage: streamlit run [OPTIONS] TARGET [ARGS]...
+Try 'streamlit run --help' for help.
+
+Error: Invalid value: File does not exist: .\Streamlit-GenAI-Apps\text_analyser_st.py
+(venv) PS C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain> cd .\Streamlit-GenAI-AppsS
+cd : Cannot find path
+'C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain\Streamlit-GenAI-AppsS' because it
+does not exist.
+At line:1 char:1
++ cd .\Streamlit-GenAI-AppsS
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\user\D...lit-GenAI-AppsS:String) [Set-Location], ItemNotFoundE
+   xception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+(venv) PS C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain>
+(venv) PS C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain>
+(venv) PS C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain> cd .\Streamlit-GenAI-Apps\
+(venv) PS C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain\Streamlit-GenAI-Apps>
+(venv) PS C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain\Streamlit-GenAI-Apps>
+(venv) PS C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain\Streamlit-GenAI-Apps> ls
+
+
+    Directory: C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain\Streamlit-GenAI-Apps
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         9/23/2025  11:04 AM          10030 news_summarizer_st.py
+-a----         9/23/2025  11:01 AM           8927 resume_extractor_st.py
+-a----         9/23/2025  10:58 AM           9619 resume_jd_match_st.py
+-a----         9/23/2025  10:54 AM           4454 text_analyster_st.py
+
+
+(venv) PS C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain\Streamlit-GenAI-Apps> streamlit.cmd^C
+(venv) PS C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain\Streamlit-GenAI-Apps> streamlit run text_analyser_st.py
+Usage: streamlit run [OPTIONS] TARGET [ARGS]...
+Try 'streamlit run --help' for help.
+
+Error: Invalid value: File does not exist: text_analyser_st.py
+(venv) PS C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain\Streamlit-GenAI-Apps>
+(venv) PS C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain\Streamlit-GenAI-Apps> python -m streamlit run .\text_analyster_st.py
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8502
+  Network URL: http://192.168.0.105:8502
+
+C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain\Streamlit-GenAI-Apps\text_analyster_st.py:3: LangChainDeprecationWarning: Importing chat models from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.chat_models import ChatOpenAI`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  from langchain.chat_models import ChatOpenAI
+C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain\Streamlit-GenAI-Apps\text_analyster_st.py:3: LangChainDeprecationWarning: Importing chat models from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.chat_models import ChatOpenAI`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  from langchain.chat_models import ChatOpenAI
+C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain\Streamlit-GenAI-Apps\text_analyster_st.py:3: LangChainDeprecationWarning: Importing chat models from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.chat_models import ChatOpenAI`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  from langchain.chat_models import ChatOpenAI
+C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain\Streamlit-GenAI-Apps\text_analyster_st.py:3: LangChainDeprecationWarning: Importing chat models from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.chat_models import ChatOpenAI`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  from langchain.chat_models import ChatOpenAI
+C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain\Streamlit-GenAI-Apps\text_analyster_st.py:39: LangChainDeprecationWarning: The class `ChatOpenAI` was deprecated in LangChain 0.0.10 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-openai package and should be used instead. To use it run `pip install -U :class:`~langchain-openai` and import as `from :class:`~langchain_openai import ChatOpenAI``.
+  llm = ChatOpenAI(temperature=0)
+C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain\Streamlit-GenAI-Apps\text_analyster_st.py:42: LangChainDeprecationWarning: The class `LLMChain` was deprecated in LangChain 0.1.17 and will be removed in 1.0. Use :meth:`~RunnableSequence, e.g., `prompt | llm`` instead.
+  chain = LLMChain(llm=llm, prompt=prompt)
