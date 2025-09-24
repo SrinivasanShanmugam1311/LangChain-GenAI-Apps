@@ -44,4 +44,3 @@ chain = LLMChain(llm=llm, prompt=prompt)
 # Get result
 result = chain.invoke({"text": text})
 print(result)
-

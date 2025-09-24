@@ -47,7 +47,8 @@ if __name__ == "__main__":
         print("File not found:", path)
         sys.exit(1)
 
-    code_text = path.read_text()
+#    code_text = path.read_text()
+    code_text = path.read_text(encoding="utf-8", errors="replace")
     explanation = explain_code(code_text)
 
     print("\n--- Explanation ---\n")

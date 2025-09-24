@@ -1,0 +1,48 @@
+{
+    "Name": "Alexander Reddy",
+    "Email": "alexvatti@gmail.com",
+    "Phone": "9566177461",
+    "Education": "National Institute of Technology, Warangal, India. Jun 20 04",
+    "Experience": [
+        {
+            "JobTitle": "Machine Learning Engineer",
+            "Company": "Qvantel",
+            "Location": "Hyderabad",
+            "Duration": "March 2020 \u2013 Oct 2023",
+            "Responsibilities": [
+                "Developed advanced functionalities for the Algro IVD smart camera, focusing on precise barcode decoding, accurate liquid level measurement, and deep learning-based cap detection.",
+                "Ensured robust performance in IVD applications, enhancing sample tracking, analytical precision, and quality control in medical environments."
+            ]
+        }
+    ],
+    "Skills": [
+        "Programming",
+        "Data Manipulation",
+        "Analysis",
+        "Data Visualization",
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing (NLP)",
+        "Image Processing",
+        "Deployment",
+        "Cloud",
+        "Python",
+        "Pandas",
+        "Matplotlib",
+        "Scikit-learn",
+        "TensorFlow/Keras",
+        "NLTK",
+        "OpenCV",
+        "Flask",
+        "AWS",
+        "SQL",
+        "NumPy",
+        "Seaborn",
+        "XGBoost",
+        "PyTorch",
+        "SpaCy",
+        "Pillow",
+        "Streamlit",
+        "Azure"
+    ]
+}
