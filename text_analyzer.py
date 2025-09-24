@@ -10,9 +10,6 @@ from dotenv import load_dotenv
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
-#from langchain_community.chat_models import ChatOpenAI
-
-from langchain_core.output_parsers import StrOutputParser
 
 # Load environment variables from .env
 load_dotenv()
@@ -47,3 +44,4 @@ chain = LLMChain(llm=llm, prompt=prompt)
 # Get result
 result = chain.invoke({"text": text})
 print(result)
+
