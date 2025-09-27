@@ -1,0 +1,87 @@
+(venv) PS C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\LangChain-GenAI-Apps> history
+
+  Id CommandLine
+  -- -----------
+   1 cd 'C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\GenAI\langchain'
+   2 ls
+   3 .\venv\Scripts\Activate.ps1
+   4 ls
+   5 python .\text_analyzer.py
+   6 streamlit run .\Streamlit-GenAI-Apps\text_analyser_st.py
+   7 cd .\Streamlit-GenAI-AppsS
+   8 cd .\Streamlit-GenAI-Apps\
+   9 ls
+  10 streamlit run text_analyser_st.py
+  11 python -m streamlit run .\text_analyster_st.py
+  12 cd ..
+  13 ls
+  14  python .\text_analyzer.py
+  15 cd .\Streamlit-GenAI-Apps\
+  16 python -m streamlit run .\text_analyster_st.py
+  17 cd ..
+  18 ls
+  19 ls
+  20 python .\resume_extractor.py
+  21 python .\resume_extractor.py --input_path .\Alexander_Resume_ML_DL_DS.pdf
+  22 python .\resume_extractor.py --pdf .\Alexander_Resume_ML_DL_DS.pdf --output "resume_output.json"
+  23 cd .\Streamlit-GenAI-Apps\
+  24  python -m streamlit run .\resume_extractor_st.py
+  25 ls
+  26 python .\resume_extractor_st.py
+  27 cd ..
+  28 ls
+  29 ./python resume_extractor.py
+  30 python ./resume_jd_match.py
+  31 python .\resume_jd_match.py .\Alexander_Resume.pdf .\job_description.txt
+  32 python .\resume_jd_match.py .\Alexander_Resume_ML_DL_DS.pdf .\job_description.txt
+  33 python .\resume_jd_match.py .\Alexander_Resume_ML_DL_DS.pdf .\jd.txt
+  34 cd ..
+  35 cd .\langchain\
+  36 cd .\Streamlit-GenAI-Apps\
+  37 python -m streamlit run .\news_summarizer_st.py
+  38 ls
+  39 cd ..
+  40 ls
+  41 python ./code_explainer.py
+  42 ls
+  43 python.exe .\code_explainer.py .\amdgpu_Drv.c
+  44 python.exe .\code_explainer.py .\amdgpu_Drv.c  --encoding utf-8
+  45 python.exe .\code_explainer.py .\amdgpu_Drv.c  --encoding latin-1
+  46 chcp 65001 > $null   # set PowerShell to UTF-8
+  47 $env:PYTHONIOENCODING="utf-8"
+  48 python .\code_explainer.py .\amdgpu_Drv.c --encoding utf-8
+  49 pip install -U langchain langchain-openai python-dotenv
+  50 python .\code_explainer_chunked.py .\amdgpu_Drv.c --encoding utf-8 --chunk-chars 8000 --overlap 400
+  51 ls
+  52 python .\code_explainer_chunked.py .\amdgpu_Drv.c --encoding utf-8 --chunk-chars 8000 --overlap 400
+  53 python .\csv_analyst.py .\classification_report.csv
+  54 python .\doc_qa.py .\Alex-Freelance-Business-Model.pdf
+  55 git status
+  56 git remote -v
+  57 cd ..
+  58 cd ..
+  59 git remote set-url origin https://github.com/SrinivasanShanmugam1311/LangChain-GenAI-Apps.git
+  60 git fetch origin
+  61 git branch -M main
+  62 git pull
+  63 git branch --set-upstream-to=origin/main main
+  64 git pull
+  65 git pull origin main --allow-unrelated-histories
+  66 ls
+  67 git status
+  68 git branch -vv
+  69 mkdir LangChain-GenAI-Apps
+  70 cd .\LangChain-GenAI-Apps\
+  71 ls
+  72 git clone https://github.com/SrinivasanShanmugam1311/LangChain-GenAI-Apps.git .
+  73 ls
+  74 ls
+  75 git status
+  76 git add .
+  77 git status
+  78 git commit -m "Merge local files with remote repo"
+  79 git push -u origin main
+  80 hisotry
+
+
+(venv) PS C:\Users\user\Desktop\Phase10_BLR_visit_19092025\Srinivas-Sep-23\LangChain-GenAI-Apps>
